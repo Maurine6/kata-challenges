@@ -24,7 +24,8 @@ function findLongestSpikedSequence(arr) {
             }
 
             // Update the maximum length of a spike if necessary
-            ans = Math.max(ans, count);
+            //ans = Math.max(ans, count);
+            ans = count;
         }
     }
 
